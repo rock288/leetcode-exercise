@@ -9,7 +9,7 @@ const target = 17
 var twoSum = function (nums, target) {
   const hash = {}
   for (let i = 0; i < nums.length; i++) {
-    if (hash[target - nums[i]] !== undefined &&) {
+    if (hash[target - nums[i]] !== undefined) {
       return [hash[target - nums[i]], i]
     }
 
