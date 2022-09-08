@@ -26,13 +26,11 @@ var isValid = function (s) {
 
   for (let i = 0; i < s.length; i++) {
     if (data[s[i]]) {
-      stack.unshift(s[i])
+      stack.push(s[i])
       continue
     }
 
-    if (s[i] === data[stack[0]]) {
-      stack.shift()
-    } else {
+    if (s[i] !== data[stack.pop()]) {
       return false
     }
   }
