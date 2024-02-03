@@ -1,4 +1,3 @@
 ## Algorithm
 
-- Name file is name of exercise
-- Commit message: name: runtime and memory
+A place to solve leetcode exercises using javascript

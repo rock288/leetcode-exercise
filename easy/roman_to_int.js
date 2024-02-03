@@ -1,4 +1,4 @@
-const s = 'MCMXCIV'
+const s = "MCMXCIV"
 
 /**
  * @param {string} s
